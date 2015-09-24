@@ -54,9 +54,9 @@ var loopGameloop;
 var loopPipeloop;
 
 $(document).ready(function() {
-   if(window.location.search == "?debug")
+   if(window.location.search == "?debugmode")
       debugmode = true;
-   if(window.location.search == "?easy")
+   if(window.location.search == "?easymode")
       pipeheight = 200;
    
    //get the highscore
@@ -325,11 +325,11 @@ function setMedal()
    var elemmedal = $("#medal");
    elemmedal.empty();
    
-   if(score < 10)
+   if(score < 2)
       //signal that no medal has been won
       return false;
    
-   if(score >= 10)
+   if(score >= 2)
       medal = "bronze";
    if(score >= 20)
       medal = "silver";
