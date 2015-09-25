@@ -8,6 +8,9 @@
     <div class="masonry-brick" ng-repeat="brick in bricks">
       <a ng-href="{{ brick.url }}">
         <img ng-src="{{ brick.src }}" alt="A masonry brick">
+        <div>
+          {{brick.price}}
+        </div>
       </a>
     </div>
 </div>
