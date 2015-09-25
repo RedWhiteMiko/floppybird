@@ -1,0 +1,14 @@
+{
+  "name": "leaflet-geoip",
+  "homepage": "https://github.com/jakubdostal/leaflet-geoip",
+  "_release": "0d73a80538",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0d73a805384b24499982111cc38eda620962444a"
+  },
+  "_source": "https://github.com/jakubdostal/leaflet-geoip.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/jakubdostal/leaflet-geoip.git",
+  "_direct": true
+}
