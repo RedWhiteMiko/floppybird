@@ -1,0 +1,20 @@
+<div style="text-align: center;">
+  <img class="img-responsive" src="../images/404.png" style="margin: 0 auto;">
+</div>
+<div style="text-align: center;">
+  <img class="img-responsive" src="../images/rec.png" style="margin: 0 auto;">
+</div>
+<div masonry style="width: 100%;">
+    <div class="masonry-brick" ng-repeat="brick in bricks">
+      <a ng-href="{{ brick.url }}">
+        <img ng-src="{{ brick.src }}" alt="A masonry brick">
+      </a>
+    </div>
+</div>
+<style>
+div.container {
+  width: 100%;
+  max-width: 9999px;
+}
+.grid-item { width: 200px; }
+</style>
